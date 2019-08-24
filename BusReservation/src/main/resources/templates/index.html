@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/NewFile.css}"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" th:src="@{/js/test.js}"></script>
+</head>
+<body>
+ <h3 id="header">HTML Page</h3>
+ <form id="signupform" onsubmit="signupFunction(event)" name="form">
+ 	<label>Email ID</label>
+ 	<input type="text" placeholder="example@gmail.com" id="formname" name="email">
+ 	<label>Password</label>
+ 	<input type="password" name="password" placeholder="A@123passwprd">
+ 	<input type="submit" value="SignUp">
+ </form>
+ <div id = "demo"></div>
+ <input type="button" value="Click me" Onclick = "clicked()">
+</body>
+</html>
