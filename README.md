@@ -1,2 +1,2 @@
 # BusReservation
-to tryout git repo
+to tryout git repository
